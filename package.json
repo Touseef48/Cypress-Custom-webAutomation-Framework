@@ -1,0 +1,21 @@
+{
+  "name": "Cypress_new",
+  "version": "1.0.0",
+  "description": "my first cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.8.0",
+    "esbuild": "^0.15.9"
+  }
+}
