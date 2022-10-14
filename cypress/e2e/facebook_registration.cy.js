@@ -11,15 +11,9 @@ Add to Cart (Accessories(T-shirt)) Functionality
 ---------------------------------------------------
 */
 describe('Buying a product from AutomationStore', () => {
-    it('Add Accessories item to Cart', () => {
+    it('facebook registration', () => {
         loginPage.navigate('https://automationteststore.com/');
-        loginPage.clickAccessories();
-        loginPage.clickTshirt();
-        loginPage.sortTshirts();
-        loginPage.assertSortedItems();
-        loginPage.addMediumTshirtToCart();
-        loginPage.clickAccessories();
-        loginPage.addHighestRatingShoesToCart();
+        loginPage.facebook_registration();
       })
 
 })
